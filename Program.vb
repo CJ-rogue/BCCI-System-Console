@@ -42,7 +42,7 @@ Module Program
     End Sub
 
     Public Sub Data(Obj As Employee)
-        Console.Write("Name of Employee: ")
+        Console.Write("Name of Employee: aho ")
         Obj.Name = Console.ReadLine()
         Console.Write("Name of Company : ")
         Obj.Company = Console.ReadLine()
