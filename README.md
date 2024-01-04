@@ -10,7 +10,8 @@
 
 ## Introduction
 - The BCCI System is a command-line application developed in VB.NET using Visual Studio 2022. 
-- It calculates the SSS, Pag-Ibig, PhilHealth, and Tax contributions based on the provided monthly income. The application runs on the .NET Framework.
+- It calculates the SSS, Pag-Ibig, PhilHealth, and Tax contributions based on the provided monthly income.
+- The application runs on the .NET Framework and is designed for calculations specific to the Philippines.
 
 ## How to Use
 1. Open the project in Visual Studio 2022.
