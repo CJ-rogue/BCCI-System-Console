@@ -6,7 +6,8 @@
 1. [Introduction](#introduction)
 2. [Usage](#how-to-use)
 3. [Disclaimer](#disclaimer)
-4. [License](#license)
+4. [Versions](#versions)
+5. [License](#license)
 
 ## Introduction
 - The BCCI System is a command-line application developed in VB.NET using Visual Studio 2022. 
@@ -23,6 +24,10 @@
    
 ## Disclaimer
 This tool provides estimates and should not be considered as professional financial advice. Please consult with a financial advisor for accurate and personalized information.
+
+## Versions
+- [Windows Form Version](https://github.com/CJ-rogue/Benefits-Coverage-Contribution-Inquiry-System-WF)
+- [Console Version](https://github.com/CJ-rogue/BCCI-Project-Console)
 
 ## License
 This project is licensed under the terms of the [MIT License](LICENSE).
