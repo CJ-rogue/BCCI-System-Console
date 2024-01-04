@@ -22,7 +22,7 @@ Module Program
             Data(Obj)
             DataOutput(Obj)
 
-            Console.Write("Another Inquiry? (Y/N): ")
+            Console.Write(vbCrLf & "Another Inquiry? (Y/N): ")
             Dim userInput As String = Console.ReadLine().Trim()
             If userInput.Equals("N", StringComparison.OrdinalIgnoreCase) Then
                 exitProgram = True
@@ -51,7 +51,7 @@ Module Program
     End Sub
 
     Public Sub DataOutput(Obj As Employee)
-        Console.WriteLine("Income Tax: " & IncomeTax(Obj.MonthlySalary))
+        Console.WriteLine(vbCrLf & "Income Tax: " & IncomeTax(Obj.MonthlySalary))
         Console.WriteLine("Pag-Ibig  : " & PagIbig(Obj.MonthlySalary))
         Console.WriteLine("SSS       : " & SSS(Obj.MonthlySalary))
         Console.WriteLine("PhilHealth: " & PhilHealth(Obj.MonthlySalary))
